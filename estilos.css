@@ -84,3 +84,16 @@ width: 25px;
 .datos{
     margin-left: 10px;
 }
+
+@media screen and (max-width:550px){
+    .nav-restaurante{
+        width: 200px;  
+    }
+    .item-res{
+        margin-top:10px;
+       height: 60px;
+    }
+    .con-menu{
+        height: 110%;
+    }
+}
