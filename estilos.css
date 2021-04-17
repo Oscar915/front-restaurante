@@ -85,7 +85,7 @@ width: 25px;
     margin-left: 10px;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:500px){
     .nav-restaurante{
         width: 80%;  
     }
@@ -121,5 +121,22 @@ width: 25px;
         width: 80px;  
         height: 30px;
     }
+    
+}
+
+@media screen and (max-width:448px){
+  
+    .card{
+        margin-top: 10px;
+        width: 180px;
+        height: 395px;
+    }
+ .card>img{
+        height:170px;
+        width: 180px;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
     
 }
