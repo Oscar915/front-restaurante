@@ -98,7 +98,11 @@ width: 25px;
     }
     .contenedor-nav>nav{
         width: 100%;
+        
     }
+    .nav-color{
+border-radius: 0px;
+}
 
     main{
         display: flex;
