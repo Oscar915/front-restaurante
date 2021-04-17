@@ -47,7 +47,8 @@ width: 25px;
 }
 .main{
     display: flex;
-    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .con-menu{
@@ -74,8 +75,7 @@ width: 25px;
 }
 
 .card>button{
-    width: 93px;
-    
+    width: 93px;  
 }
 
 .linea>img{
@@ -85,18 +85,41 @@ width: 25px;
     margin-left: 10px;
 }
 
-@media screen and (max-width:550px){
+@media screen and (max-width:500px){
     .nav-restaurante{
-        width: 200px;  
+        width: 80%;  
     }
     .item-res{
         margin-top:10px;
-       height: 60px;
     }
     .con-menu{
-        height: 110%;
+        width: 90%;
+        
     }
     .contenedor-nav>nav{
         width: 100%;
     }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        margin-top: 10px;
+        width: 200px;
+        height: 375px;
+    }
+
+    .card>img{
+        height:170px;
+        width: 200px;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .card>button{
+        width: 80px;  
+        height: 30px;
+    }
+    
 }
